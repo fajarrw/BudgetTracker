@@ -19,9 +19,9 @@ Request body:
 
     //json
     {
-			"description": "descriptionText",	//string
-			"amount":1000,	//integer
-			"isExpense": 0, //integer: 0 atau 1
+		"description": "descriptionText",	//string
+		"amount":1000,	//integer
+		"isExpense": 0, //integer: 0 atau 1
     }
 #### Update existing transaction
 >PUT: /transaction/:id
@@ -30,10 +30,10 @@ Request body:
 
     //json
     {
-	    "date":"1970-01-01", //string, Format: YYYY-MM-DD
-			"description": "descriptionText",	//string
-			"amount":1000,	//integer
-			"isExpense": 0, //integer, 0 atau 1
+		"date":"1970-01-01", //string, Format: YYYY-MM-DD
+		"description": "descriptionText",	//string
+		"amount":1000,	//integer
+		"isExpense": 0, //integer, 0 atau 1
     }
 #### Delete existing transaction
 >DELETE: /transaction/:id
